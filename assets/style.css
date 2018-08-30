@@ -10,13 +10,12 @@ nav{
 .logo{
     background: #4aaaa5;
     color: white;
-    top: 0;
     padding: 15px;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     z-index: 11;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    border: groove;
 }
 .margin-0{
     margin: 0;
@@ -53,7 +52,6 @@ nav{
 .tile{
     margin: 5%;
     height: 175px;
-    background: green;
     padding: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
@@ -64,15 +62,20 @@ nav{
     padding: 2% 2% 6% 2%;
     font-size: 18px;
     text-align: left;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     
+}
+.image{
+    height: 175px;
 }
 .profilePic{
     float: left;
-    clear: left;
-    margin: 2%;
+    clear: both;
+    margin: 6% 2% 6% 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    transform: rotate(90deg);
+    width: 300px;
+    overflow: hidden;
 }
 .footer{
     width: 100%;
