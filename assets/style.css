@@ -4,7 +4,6 @@ body{
 nav{
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 
 .logo{
@@ -63,7 +62,6 @@ nav{
     font-size: 18px;
     text-align: left;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-    
 }
 .image{
     height: 175px;
@@ -90,7 +88,6 @@ nav{
     border: solid;
     border-width: 10px 0 0 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 .blankTop{
     opacity: 0;
@@ -117,7 +114,6 @@ nav{
     font-size: 22px;
     padding-top: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 .background{
     display: flex;
